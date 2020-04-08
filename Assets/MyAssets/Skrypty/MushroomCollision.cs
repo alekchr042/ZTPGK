@@ -28,9 +28,4 @@ public class MushroomCollision : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
-
-
-
 }
