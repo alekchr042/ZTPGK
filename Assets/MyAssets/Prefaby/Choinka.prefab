@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9065427262314751389}
   - component: {fileID: 4837590348438204541}
   - component: {fileID: 7868009565402453999}
+  - component: {fileID: 1378031134}
   m_Layer: 0
   m_Name: Choinka
   m_TagString: Untagged
@@ -89,9 +90,9 @@ MeshCollider:
   m_GameObject: {fileID: 3198839546105423751}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 4471b1f7f824e4d44887e1364c6fc61a, type: 3}
 --- !u!54 &4837590348438204541
@@ -105,7 +106,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 126
@@ -118,9 +119,21 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3198839546105423751}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.8490801
+  m_Radius: 1.29
   m_Height: 4.2180724
   m_Direction: 1
-  m_Center: {x: -0.01845619, y: 2.29, z: -0.003755778}
+  m_Center: {x: -0.01845619, y: 2.48, z: -0.003755778}
+--- !u!114 &1378031134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3198839546105423751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6443ccf7fa458441ba6631d25ed6b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
