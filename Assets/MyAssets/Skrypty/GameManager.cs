@@ -67,8 +67,6 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("BestResult", currentResult);
         }
-
-
     }
 
     private void GenerateMushrooms()
@@ -98,8 +96,6 @@ public class GameManager : MonoBehaviour
         {
             GUI.Label(new Rect(250, 100, 200, 30), "Game over! Press R to retry.", new GUIStyle() { fontSize = 50});
             GUI.Label(new Rect(500, 150, 200, 30), "Score : " + currentResult, new GUIStyle() { fontSize = 30 });
-
-
         }
     }
 }
