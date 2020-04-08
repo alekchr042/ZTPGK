@@ -27,14 +27,4 @@ public class TreeCollision : MonoBehaviour
             
         }
     }
-
-    //void OnCollisionEnter(Collision collision)
-    //{
-    //    var isCollisionWithPlayer = collision.gameObject.tag == "Player";
-    //    if (isCollisionWithPlayer)
-    //    {
-    //        Debug.Log("collision with player");
-    //        collision.rigidbody.AddForce(collision.gameObject.transform.forward * -2, ForceMode.Impulse);
-    //    }
-    //}
 }
